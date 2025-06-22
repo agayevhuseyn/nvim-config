@@ -49,4 +49,7 @@ return require('packer').startup(function(use)
     use('romgrk/barbar.nvim')
 
     use('sindrets/diffview.nvim')
+
+    -- COPILOT
+    use('github/copilot.vim')
 end)

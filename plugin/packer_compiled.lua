@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  LuaSnip = {
-    loaded = true,
-    path = "/home/huseyn/.local/share/nvim/site/pack/packer/start/LuaSnip",
-    url = "https://github.com/L3MON4D3/LuaSnip"
-  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/home/huseyn/.local/share/nvim/site/pack/packer/start/barbar.nvim",
@@ -109,10 +104,10 @@ _G.packer_plugins = {
     path = "/home/huseyn/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["completion-treesitter"] = {
+  ["copilot.vim"] = {
     loaded = true,
-    path = "/home/huseyn/.local/share/nvim/site/pack/packer/start/completion-treesitter",
-    url = "https://github.com/nvim-treesitter/completion-treesitter"
+    path = "/home/huseyn/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
   },
   ["diffview.nvim"] = {
     loaded = true,
