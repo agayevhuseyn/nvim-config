@@ -11,4 +11,12 @@ local function ChangeColor(color)
 
 end
 
-ChangeColor("catppuccin")
+
+vim.schedule(function()
+    local filetype = vim.bo.filetype
+    if filetype == "seal" then
+        ChangeColor("radium")
+    else
+        ChangeColor("catppuccin")
+    end
+end)

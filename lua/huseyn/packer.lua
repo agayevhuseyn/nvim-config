@@ -23,13 +23,10 @@ return require('packer').startup(function(use)
     --    end
     --})
 
-    -- use({
-    --     "catppuccin/nvim",
-    --     as = "catppuccin",
-    --     config = function()
-    --         vim.cmd("colorscheme catppuccin")
-    --     end
-    -- })
+    use({
+        "catppuccin/nvim",
+        as = "catppuccin",
+    })
 
     use('nvim-treesitter/nvim-treesitter', { run =':TSUpdate' })
     use('mbbill/undotree')
@@ -52,4 +49,10 @@ return require('packer').startup(function(use)
 
     -- COPILOT
     use('github/copilot.vim')
+
+    -- radium theme
+    use('Sly-Harvey/radium.nvim')
+
+    -- seal vim
+    use('agayevhuseyn/seal.vim')
 end)
